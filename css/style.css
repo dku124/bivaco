@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --primary-color: #a98351;
+  --black-color: #000;
+
+}
+
+/* reset css */
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Montserrat", sans-serif;font-size:14px;font-weight:400;color:var(--pirimary-color)}
+input, button{font-family: "Montserrat", sans-serif;}
+ul,ol{list-style:none}
+button{overflow:visible;border:0;background-color:transparent;cursor:pointer}
+button::-moz-focus-inner{padding:0;border:0}
+a{display: block;color: var(--pirimary-color);}
+a,a:focus,a:active,a:hover{text-decoration:none;cursor: pointer;}
+a:hover,a:active,a:focus{background-color:transparent}
+input{border:0; outline: none;}
+strong{display: block;}
+
+/* --------comond--------- */
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+section{
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+
+
+
+/* --------header--------- */
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header_content{
+  padding-block: 1rem;
+
+}
+
+
+
+
+
+
+
+
+/* --------main--------- */
+/*  */
+.section_intro{
+  background-color: var(--pirimary-color);
+  padding: 20rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------footer--------- */
+
+
+
+
+
+
+/* --------responsive--------- */
