@@ -4,6 +4,7 @@
   --primary-color: #a98351;
   --black-color: #000;
   --white-color: #fff;
+  --title-color: #a4855a;
 }
 
 /* reset css */
@@ -126,7 +127,9 @@ section{
   background-color: #000;
 }
 
-
+.swiper-pagination-bullet-active{
+  background: var(--primary-color);
+}
 
 
 /* --------responsive--------- */
